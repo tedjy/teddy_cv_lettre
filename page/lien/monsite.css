@@ -1,0 +1,256 @@
+body {
+    
+  background: linear-gradient(to right, #618078, #355ecec5,#618078);
+    
+  }
+
+  * {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  header {
+    padding: 20px 0;
+  }
+  
+  header .row,
+  footer .row {
+    display: flexbox;
+    align-items: baseline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .row.text-center  {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: x-large;
+  }
+
+  
+  
+  header h1 {
+    font-weight: 700px;
+    margin-bottom: 100px;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  header p {
+    padding: 0 20px;
+    margin: 0;
+  }
+
+  nav.col-sm-8.text-right {
+    text-align: center;
+
+   }
+
+  
+  .jumbotron {
+    
+    background-image: url('https://uptime.com/media/website_profiles/codecademy.com.png');
+    padding-left: 0;
+    min-width: 500px;
+    max-width: 1000px;
+    height: 500px;
+    color: #fdfdfd;
+    
+    margin-bottom: 10%;
+    
+  }
+
+  .jumbotron-p h1 {
+    display: flex;
+    margin: 20px;
+    justify-content: start;
+    
+  }
+
+  section h1 {
+    margin-bottom: 50%;
+  }
+  
+  .jumbotron h2 {
+    margin-bottom: 800px;
+    
+  }
+  
+  .jumbotron h3 {
+    margin: 20px;
+    color: #fdfdfd;
+    margin-bottom: 40%;
+    
+  }
+
+  .jumbotron-p {
+    height: 500px;
+    background-size: cover;
+    color: #fdfdfd;
+    opacity: 10.5;
+    display: inline ;
+    font-size: 30px;
+    font-weight: 500;
+    width: 100%;
+    min-width: 500px;
+    max-width: 1000px;
+    
+    
+  }
+
+ 
+
+  .jumbotron-p h1 {
+    margin: 10px;
+    margin-bottom: 60px;
+  }
+
+  
+
+.container {
+  margin-left: 10px;
+  block-size: 10px;
+  
+  }
+  
+  section .row img {
+    margin: 0 0 30px;
+    width: 100%;
+  }
+  
+  .col-md-6 {
+    margin: 0 0 30px;
+    width: 100%;
+  }
+
+  .col-sm-4 {
+    color: #fdfdfd;
+    height: auto;
+  }
+
+  .col-sm-8 {
+    color: #fdfdfd;
+    display: flex;
+    padding: 30px;
+    
+  }
+
+  
+
+  .btn {
+    
+    justify-content: inherit;
+    margin: 10px;
+  }
+  
+  .btn.btn-primary {
+    border-radius: 2px;
+    border: 0px;
+    color: #fdfdfd;
+    text-shadow: none;
+    background-color: #20816770;
+    padding: 15px 25px;
+    margin-bottom: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 100px;
+  }
+  
+  .btn.btn-secondary {
+    border-radius: 20px;
+    border: 20px;
+    color: #ffffff;
+    text-shadow: none;
+    background-color: #1b2995b5;
+    padding: 15px 50px;
+    display: flex;
+   
+  }
+
+
+  .btn.btn-primary:hover {
+    color: #ffffff;
+    background-color: #392657;
+  }
+
+  .btn.btn-secondary:hover {
+    color: #ffffff;
+    background-color: #392657;
+  }
+
+  
+  .btn.btn-secondary {
+    border-radius: 2px;
+    border: 0px;
+    color: #fdfdfd;
+    text-shadow: none;
+    background-color: #1b319577;
+
+  }
+
+  .btn.btn-tertiary {
+    border-radius: 2px;
+    border: 0px;
+    color: #fdfdfd;
+    text-shadow: none;
+    background-color: #5d81787a;
+    
+
+  }
+
+  .btn.btn-quaternary {
+    border-radius: 2px;
+    border: 0px;
+    color: #fdfdfd;
+    text-shadow: none;
+    background-color: #1b3295;
+    
+    
+    
+    
+  }
+
+  .btn.btn-quinquennial {
+    border-radius: 2px;
+    border: 0px;
+    color: #fdfdfd;
+    text-shadow: none;
+    background-color: #1b3295;
+    
+  }
+  
+  footer {
+    font-size: 12px;
+    padding: 20px 0px;
+  }
+
+  footer .col-sm-4 {
+    background-size: cover;
+    height: 50px;
+    color: #fdfdfd;
+    bottom: -35em;
+    
+  }
+  
+  footer .col-sm-8 {
+    display: flex;
+    justify-content: flex-end;
+
+  }
+  
+  footer ul {
+    list-style: none;
+  }
+  
+  footer li img {
+    width: 32px;
+    height: 32px;
+    margin-top: 1000%;
+  }
+
+  
+ 
